@@ -83,7 +83,8 @@ class3
 
 code
 
-``@startuml
+```
+@startuml
 
 title Classes - Class Diagram
 
@@ -101,8 +102,38 @@ class Equipment{
 CPU*--Equipment
 computer*-right-CPU
 User-->computer
-@enduml`
+@enduml
+```
 
+diagram
+<img src = "https://github.com/Siriphornyui/OOAD-WEEK09/blob/master/homework/03.png">
+
+class4
+
+code
+```
+@startuml
+
+title Classes - Class Diagram
+
+class Car{
+  }
+
+class Driver{
++Start Car
++Stop
++Speed
++Slow down
+ }
+ 
+class Engine {
+ +moter
+ +batter
+}
+Car*--Engine
+Driver-left->Car
+
+@enduml
 ```
 
 
