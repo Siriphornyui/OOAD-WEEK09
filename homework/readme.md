@@ -40,5 +40,6 @@ OnlineStore*-left- Delive
 Delive-->Customer
 @enduml
 ```
+<img src= "https://github.com/Siriphornyui/OOAD-WEEK09/blob/master/homework/01.png">
 
 
