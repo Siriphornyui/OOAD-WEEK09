@@ -135,5 +135,48 @@ Driver-left->Car
 
 @enduml
 ```
+diagram
+<img src = "https://github.com/Siriphornyui/OOAD-WEEK09/blob/master/homework/car.png">
 
+class5
 
+code
+
+```
+@startuml
+
+title Classes - Class Diagram
+
+class Customer{
+ +name
+ +tel
+  }
+
+class order{
++date
++number
++price
+
+ }
+ class seller {
++name
++tel
++checking product
+}
+class product {
++nameproduct
++price
++QTY
+}
+ class drivery {
++post office
++bycar
+}
+Customer-->order
+seller-left->order
+seller-right->product
+seller-->drivery
+drivery-->Customer
+@enduml
+```
+diagram
