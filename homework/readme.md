@@ -2,6 +2,7 @@
 ##CLASS DIAGRAM
 
 class1
+
 code
 
 ```
@@ -40,6 +41,68 @@ OnlineStore*-left- Delive
 Delive-->Customer
 @enduml
 ```
-<img src= "https://github.com/Siriphornyui/OOAD-WEEK09/blob/master/homework/01.png">
+diagram
+
+<img src= "https://github.com/Siriphornyui/OOAD-WEEK09/blob/master/homework/02.png ">
+
+
+class2
+
+code
+
+```
+@startuml
+title Classes - Class Diagram
+class recipient{
+   +Fristname
+   +Lastname
+}
+class Address {
+  - Rorad
+  - City
+  - Country
+  - Postcode
+ }
+ class Sender{
+  +Store
+  +Product
+}
+class Delive {
+  +Post Office
+ }
+recipient*--Address 
+Sender--> Delive
+Delive --> recipient
+@enduml
+```
+diagram
+
+<img src="https://github.com/Siriphornyui/OOAD-WEEK09/blob/master/homework/02.png">
+
+class3
+
+code
+
+``@startuml
+
+title Classes - Class Diagram
+
+class CPU{
+   +mainboard
+   +ram
+   +rom
+}
+class Equipment{
+   +mouse
+   +keyboard
+   +moniter
+   +printer
+}
+CPU*--Equipment
+computer*-right-CPU
+User-->computer
+@enduml`
+
+```
 
 
